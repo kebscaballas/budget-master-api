@@ -7,12 +7,24 @@
   "author": "Kevin Caballas <kevincaballas@gmail.com>",
   "license": "UNLICENSED",
   "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
   "dependencies": {
+    "class-validator": "^0.13.2",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
     "koa-logger": "^3.2.1",
     "koa-router": "^12.0.0",
-    "pg": "^8.7.3"
+    "pg": "^8.7.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.0.0",
+    "typeorm": "^0.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
   }
 }
