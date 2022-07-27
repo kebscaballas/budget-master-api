@@ -1,0 +1,16 @@
+{
+  "name": "budget-master-api",
+  "version": "1.0.0",
+  "description": "REST API for the Budget Master application",
+  "main": "index.js",
+  "repository": "git@github.com:kebscaballas/budget-master-api.git",
+  "author": "Kevin Caballas <kevincaballas@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^12.0.0",
+    "pg": "^8.7.3"
+  }
+}
