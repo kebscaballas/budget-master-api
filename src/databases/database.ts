@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { createConnection } from 'typeorm';
 
 export default class Database {

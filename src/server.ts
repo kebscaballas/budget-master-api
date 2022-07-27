@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import BudgetMasterDatabase from './databases/budget_master_database';
 
 const app = require('./app');

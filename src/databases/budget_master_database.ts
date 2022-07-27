@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import Database from './database'
 
 const DB_CONFIG = {
