@@ -1,5 +1,6 @@
 // @ts-nocheck
 
+import 'dotenv/config';
 import BudgetMasterDatabase from './databases/budget_master_database';
 
 const app = require('./app');

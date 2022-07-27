@@ -3,14 +3,14 @@
 import Database from './database'
 
 const DB_CONFIG = {
-  type: 'postgres',
+  database: process.env.DB_NAME,
   host: 'localhost',
-  port: 5432,
-  username: 'kebscaballas',
-  password: '',
-  database: 'budget-master',
   logging: ['query', 'error'],
+  password: process.env.DB_PASSWORD,
+  port: 5432,
   synchronize:  true,
+  type: 'postgres',
+  username: process.env.DB_USER,
 }
 
 export default class BudgetMasterDatabase extends Database {
